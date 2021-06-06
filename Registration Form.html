@@ -1,0 +1,66 @@
+<!Doctype html>
+<html>
+    <head>
+        <title>Registration Form</title>
+        <link rel="stylesheet" type="text/css" href="bootstrap.css"/>
+        <link rel="stylesheet" type="text/css" href="style.css">
+    </head>
+
+    <body class="content">
+        <form action="ConfirmationPage.html">
+            <h1>Registration Form</h1>
+            <div class="form-group row">
+                <div class="col">
+                    <label for="firstname">First Name</label><span class="required">*</span>
+                    <input type="text" class="form-control" id="firstname" placeholder="Enter First Name" required="required"> 
+                </div>
+                <div class="col">
+                    <label for="lastname">Last Name</label><span class="required">*</span>
+                    <input type="text" class="form-control" id="lastname" placeholder="Enter Last Name" required="required">
+                </div><br>
+            </div>
+            <div class="form-group row">
+                <div class="col">
+                    <label for="username">Username</label><span class="required">*</span>
+                    <input type="text" class="form-control" id="username" placeholder="Enter Username" required="required">
+                </div>
+                <div class="col">
+                    <label for="dateofbirth">Date of Birth</label><span class="required">*</span>
+                    <input type="date" class="form-control" id="dateofbirth" required="required">
+                </div> 
+            </div>
+            <div class="form-group row">
+                <div class="col">
+                    <label for="gender">Gender</label><span class="required">*</span>
+                    <select id="gender" name="gender" class="form-control" required="required">
+                        <option value="male">Male</option>
+                        <option value="female">Female</option>
+                        <option value="RatherNotSay">Rather not say</option>
+                    </select>
+                </div>
+                <div class="col">
+                    <label for="email">Email</label><span class="required">*</span>
+                    <input type="email" class="form-control" id="email" placeholder="email@exmaple.com" required="required">
+                </div>
+            </div>
+            <div class="form-group">
+                <label for="password">Password</label><span class="required">*</span>
+                <input type="password" class="form-control" id="password" placeholder="Enter your password" required="required">
+            </div>
+            <input type="checkbox" class="confirmation" id="accept-terms" required="required">
+            <label for="accept-terms">I accept the terms of use and Privacy Policy</label><span class="required">*</span>
+            <br><br>
+
+            <button type="submit" value="Register" class="edit-button">Register</button>
+
+
+
+            
+        </form>
+    </body>
+        
+    
+
+
+
+</html>
